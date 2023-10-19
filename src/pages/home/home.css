@@ -128,9 +128,9 @@
     }
     .home-player {
       & img {
-        width: 500px;
+        width: 550px;
         left: 20%;
-        top: 100px;
+        top: 140px;
       }
     }
     
