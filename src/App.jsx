@@ -16,7 +16,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/diegovargas" element={<PlayerInfo />} />
-          <Route path="/carousel" element={<Carousel />} />
         </Routes>
       </Router>
     </>
