@@ -307,7 +307,7 @@ button:hover::after {
 
 @media (min-width: 900px) {
   .info-wrapper {
-    width: 98.5vw;
+    width: 98.7vw;
   }
   .info-title {
     font-size: 4rem;
