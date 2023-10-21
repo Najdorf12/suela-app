@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SideBar from "./components/SideBar";
 import Home from './pages/home/Home';
 import PlayerInfo from "./pages/player-info/Player-Info";
-import Carousel from "./components/Carousel";
+import AboutUs from "./pages/about-us/AboutUs";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/diegovargas" element={<PlayerInfo />} />
+          <Route path="/sobrenosotros" element={<AboutUs />} />
         </Routes>
       </Router>
     </>

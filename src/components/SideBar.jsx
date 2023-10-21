@@ -42,27 +42,27 @@ const SideBar = () => {
       >
         <div className="side-btns">
           <ul>
-            <li>
+            <motion.li whileHover={{ scale: 1.5}}>
               <Link
                 style={{ color: "rgba(172, 114, 8, 0.842)" }}
                 to={"/diegovargas"}
               >
                 <i className="bx bx-male"></i>
               </Link>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li whileHover={{ scale: 1.5}}>
               <Link
                 style={{ color: "rgba(172, 114, 8, 0.842)" }}
                 to={"/sobrenosotros"}
               >
                 <i className="bx bxs-contact"></i>
               </Link>
-            </li>
-            <li>
+            </motion.li>
+            <motion.li whileHover={{ scale: 1.5}}>
               <Link style={{ color: "rgba(172, 114, 8, 0.842)" }} to={"/"}>
                 <i className="bx bx-home"></i>
               </Link>
-            </li>
+            </motion.li>
           </ul>
         </div>
       </motion.nav>

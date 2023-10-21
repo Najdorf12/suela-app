@@ -96,7 +96,7 @@ const PlayerInfo = () => {
       </main>
 
       <div className="player-data">
-        <div >
+        <div>
           <button className="data">
             <h4>Nacimiento</h4>
             <p>14/10/1996</p>

@@ -1,0 +1,105 @@
+.about-wrapper {
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    display:flex; 
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.about-img{
+    z-index: 100;
+    background-color: rgb(16, 47, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%, 0% 50%);
+    border-radius: 5px;
+    & img{
+        min-width: 200px;
+        max-width: 400px;
+        
+    }
+}
+.about-text {
+    border-radius: 5px;
+    padding: 3rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-wrap: balance;
+    margin-top: -3rem;
+    color: whitesmoke;
+    background-color: crimson;
+    z-index: 50;
+        & h3{
+            margin-bottom: 1rem;
+            padding-right: 2rem;
+            font-size: 1.6rem;
+        }
+        & p{
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+}
+.social {
+    background-color: rgb(46, 42, 42);
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem 1rem 1rem;
+    border-radius: 5px;
+    & h2{
+        color: whitesmoke;
+    }
+     .social-icons{
+        display: flex;
+        gap: 3rem;
+        font-size: 3rem;
+        color: crimson;
+     }
+}
+
+@media(min-width:500px){
+    .about-wrapper {
+        flex-direction: row;
+        width: 80%;
+    }
+    .about-img{
+        padding: 2rem;
+        clip-path: polygon(100% 0, 85% 12%, 100% 53%, 88% 90%, 100% 100%, 59% 100%, 0 100%, 0 89%, 0 32%, 0 0);
+
+        & img {
+            padding-right: 2rem;
+        }
+    }
+    .about-text{
+        padding: 2rem;
+        margin-top: .1rem;
+        padding-left:5rem;
+        margin-left: -3rem;
+    }
+}
+
+@media(min-width:700px){
+
+.about-img{
+    & img{
+        width: 500px;
+    }
+}
+.about-text{
+    margin-left: -5rem;
+    padding-left: 7rem;
+}
+.social {
+    width: 50%;
+}
+}
