@@ -69,10 +69,10 @@ li {
 }
 
 .video-wrapper {
-  width: 90vw;
+  width: 80vw;
   background-color: rgb(17, 15, 15);
   margin: 2rem auto;
-  margin-left: -1rem;
+  margin-left: .3rem;
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -90,7 +90,7 @@ li {
 }
 
 .swipper-container{
-  width: 90vw;
+  width: 80vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -100,7 +100,7 @@ li {
   border-radius: 10px;
   box-shadow: rgba(212, 203, 203, 0.24) 0px 3px 8px;
   min-width: 60vh;
-  margin-left: -1rem;
+  margin-left: -.3rem;
 }
 
 .swiper {
