@@ -9,10 +9,9 @@ import { useEffect } from "react";
 import "./palmares.css";
 
 const variant = {
-  hidden: { opacity: 0, scale:0.3 },
+  hidden: { opacity: 1 },
   visible: {
     opacity: 1, 
-    scale: 1,
      transition: {
       duration: 1,
       ease: "easeIn"
@@ -25,6 +24,7 @@ const variantImg = {
     opacity: 1, 
      y:0,
      transition: {
+      delay: .75,
        duration: 1.4,
       ease: "easeIn"
       } 
@@ -50,14 +50,18 @@ const Palmares = () => {
           <Video />
           <Carousel />
         </section>
-           <main className="palmares-wrapper">
-              
-             <motion.div className="palmares-data"
+           <motion.main className="palmares-wrapper"
             variants={variant}
             initial="hidden"
             animate={control}
-            ref={ref}
-            >
+            ref={ref}>
+              
+             <motion.div className="palmares-data"
+             variants={variantImg}
+             initial="hidden"
+             animate={control}
+             ref={ref}
+             >
                  <h3><img src={imgEscudo} alt="" /> Flamengo </h3>
                      <p> <img src={ imgTrophy } alt="" />Apertura 23`</p>
                      <p> <img src={ imgTrophy } alt="" />Apertura y Clausura 22`</p>
@@ -98,7 +102,7 @@ const Palmares = () => {
                </div>
             </motion.div>
        
-        </main>
+        </motion.main>
         
         
         </>
