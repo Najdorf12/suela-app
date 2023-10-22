@@ -36,8 +36,8 @@
 
   & img {
     margin-bottom: 10rem;
-    min-width: 150px;
-    max-width: 250px;
+    min-width: 250px;
+    max-width: 320px;
     position: absolute;
     top: -250px;
   }

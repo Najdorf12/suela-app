@@ -33,7 +33,7 @@ const Home = () => {
   
   }
     return(
-        <>
+  <>
      <main className="home">
         <motion.section
          className="home-escudo" 
@@ -51,6 +51,7 @@ const Home = () => {
         >
           <img src= { imgPlayer } alt="" />
         </motion.section>
+      
         <motion.section
          className="home-title"
          variants={variants1}
@@ -60,7 +61,7 @@ const Home = () => {
           <h1>DIEGO VARGAS</h1>
         </motion.section>
       </main>
-        </>
+    </>
     )
 };
 
