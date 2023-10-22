@@ -89,7 +89,7 @@ li {
 }
 
 .swipper-container{
-  width: 70vw;
+  width: 90vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -99,11 +99,12 @@ li {
   background-color: rgb(17, 15, 15);
   border-radius: 10px;
   box-shadow: rgba(212, 203, 203, 0.24) 0px 3px 8px;
+  min-width: 60vh;
 }
 
 .swiper {
   width: 90%;
-  height: 80%;
+  height: 90%;
 }
 
 .swiper-slide {
@@ -143,10 +144,19 @@ li {
         flex-direction: column;
     }
   }
+  
 }
 
 @media (min-width: 1000px) {
   .video-wrapper {
     width: 60vw;
+}
+.swipper-container{
+  width: 70vw;
+  height: 90vh;
+}
+.swiper {
+  width: 90%;
+  height: 100%;
 }
 }
