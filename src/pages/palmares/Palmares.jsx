@@ -19,13 +19,14 @@ const variant = {
     },
 }
 const variantImg = {
-  hidden: { opacity: 0, y: "-100" },
+  hidden: { opacity: 0, y: "-100", scale: .4 },
   visible: {
     opacity: 1, 
      y:0,
+     scale: 1,
      transition: {
-      delay: .75,
-       duration: 1.4,
+      delay: .9,
+       duration: 1,
       ease: "easeIn"
       } 
     },
