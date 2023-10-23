@@ -53,7 +53,7 @@ li {
   & ul {
     display: flex;
     justify-content: flex-end;
-    padding-right: 4rem;
+    padding-right: 4.4rem;
     gap: 1rem;
     font-size: 2.1rem;
     border-bottom: 0.2rem solid rgb(51, 47, 47);
@@ -90,7 +90,7 @@ li {
 }
 
 .swipper-container{
-  width: 85vw;
+  width: 75vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -100,7 +100,7 @@ li {
   border-radius: 10px;
   box-shadow: rgba(212, 203, 203, 0.24) 0px 3px 8px;
   min-width: 60vh;
-  margin-left: -.7rem;
+  margin-left: -1.5rem;
 }
 
 .swiper {
