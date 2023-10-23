@@ -87,10 +87,12 @@ li {
 .swipper-container{
   position: relative;
   height: 100%;
+  width: 100%;
 }
 
 .swipper-container{
-  width: 75vw;
+  min-width: 60vh;
+  width: 70vw;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -99,8 +101,7 @@ li {
   background-color: rgb(17, 15, 15);
   border-radius: 10px;
   box-shadow: rgba(212, 203, 203, 0.24) 0px 3px 8px;
-  min-width: 60vh;
-  margin-left: -1.5rem;
+  margin-left: -1.6rem;
 }
 
 .swiper {
