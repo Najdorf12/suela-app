@@ -85,7 +85,7 @@ const Palmares = () => {
               </motion.div>
            
             <motion.div className="palmares-data2"
-              variants={variant}
+              variants={variantImg}
               initial="hidden"
               animate={control}
               ref={ref}
